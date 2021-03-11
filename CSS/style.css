@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/image/Layer\ 41.png");
+    padding-top: 150px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    background-color: grey;
+}
+
+.container-top {
+    width: 100%;
+    height: 30%;
+    background-color: #2B3040;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.item-1, .item-2, .item-3 {
+    width: auto;
+    height: auto;
+}
+
+.item-1:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff;
+}
+
+.item-2:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff;
+}
+
+.item-3:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff;
+}
+
+.container-bottom {
+    width: 100%;
+    height: 100%;
+    background-color: #2B3040;
+    padding-top: 10%;
+}
+
+.images-fon {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+
+.images-fon img {
+    width: 100%;
+    height: 100%;
+}
+
+.is-visibl {
+    display: none;
+}
